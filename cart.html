@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carstensen - Cart</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css"> 
+
+  </head>
+
+  <body>
+
+    <section id="header">
+
+      <a href="index.html"><img src="images/cmk.jpg" class="logo"></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a class="active" href="cart.html"><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="cart-is-empty-banner">
+      <h2>Warenkorb</h2>
+    </section>
+
+    <section id="cart">
+
+      <div class="cart-products js-cart-products">
+      </div> 
+
+      <div class="bestellübersicht-h">
+
+        <h5>Bestellübersicht</h5>
+
+        <div class="bestellübersicht">
+          
+          <div class="bestellübersicht-items">
+            <p>Produkte:</p>
+            <p>Anzahl:</p>
+            <P>Kosten:</P>
+          </div>
+  
+          <div class="bestellübersicht-values">
+            <p class="anzahl-produkte">0</p>
+            <p class="stückzahl-insgesamt">0</p>
+            <p class="kosten-total">$0</p>
+          </div>
+
+        </div>
+
+        <button class="js-checkout-button">Checkout</button>
+
+      </div>
+
+    </section>
+
+    <footer class="footer">
+
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <p><strong>Adresse:</strong> Hubertusstraße 23, 52388 Nörvenich, Düren</p>
+        <p><strong>Telefon:</strong> +0 176 56875979</p>
+        <p><strong>Arbeitszeiten:</strong> 10:00 - 18:00, Mon - Fr</p>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright © 2023 Carstensen Inc. Alle Rechte vorbehalten.</p>
+      </div>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/cart.js"></script>
+    
+  </body>
+
+</html>
